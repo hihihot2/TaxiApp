@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="college">
+        <item>인문대학</item>
+        <item>과학기술대학</item>
+        <item>경상대학</item>
+        <item>공공행정학부</item>
+        <item>국제스포츠학부</item>
+        <item>약학대학</item>
+    </string-array>
+    
+    <string-array name="liberal">
+        <item>국어국문학과</item>
+        <item>영어영문학과</item>
+        <item>사회학과</item>
+        <item>북한학과</item>
+        <item>사회복지융합전공</item>
+        <item>고고미술사학과</item>
+        <item>중국학부</item>
+        <item>미디어문예창작학과</item>
+        <item>문화콘텐츠융합전공</item>
+        <item>디지털매체문화융합전공</item>
+        <item>독일문화학과</item>
+    </string-array>
+    
+    <string-array name="science">
+        <item>디스플레이-반도체물리학과</item>
+        <item>신소재화학과</item>
+        <item>컴퓨터정보학과</item>
+        <item>전자및정보공학과</item>
+        <item>제어계측학과</item>
+        <item>환경시스템공학과</item>
+        <item>생명정보공학과</item>
+        <item>식품생명공학과</item>
+        <item>응용통계학과</item>
+        <item>수학과</item>
+    </string-array>
+    
+    <string-array name="economy">
+        <item>경제학과</item>
+        <item>경영정보학과</item>
+        <item>경영학부</item>
+    </string-array>
+    
+    <string-array name="admin">
+        <item>공공행정학부</item>
+    </string-array>
+    
+    <string-array name="sports">
+        <item>국제스포츠학부</item>
+    </string-array>
+    
+    <string-array name="pharmacy">
+        <item>약학과</item>
+    </string-array>
+</resources>

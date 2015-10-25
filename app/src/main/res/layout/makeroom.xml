@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum = "1"
+        android:background = "#000000">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="0.1"
+            android:background="#ffffff"
+            android:gravity="left|center_vertical"
+            android:text="  제 목"
+            android:textSize = "20sp"
+            android:textStyle = "bold"/>
+
+        <EditText
+            android:layout_width ="match_parent"
+            android:layout_height = "0dp"
+            android:layout_weight="0.1"
+            android:hint = " 제목을 입력하시오"
+            android:background = "#ffffff"
+            android:id = "@+id/roomTitle"
+            android:layout_marginBottom="1dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="0.1"
+            android:background="#ffffff"
+            android:gravity="left|center_vertical"
+            android:text="  내 용"
+            android:textSize = "20sp"
+            android:textStyle = "bold"/>
+
+        <EditText
+            android:layout_width ="match_parent"
+            android:layout_height = "0dp"
+            android:layout_weight="0.62"
+            android:hint = " 내용을 입력하시오"
+            android:background = "#ffffff"
+            android:id = "@+id/roomContent"
+            android:layout_marginBottom="1dp"
+            android:gravity="top"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.08"
+            android:weightSum = "1"
+            android:background="#ffffff">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight = "0.4"
+                android:background="#ffffff">
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/roomCreate"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="방만들기"
+                android:layout_weight="0.3" />
+
+            <Button
+                android:id="@+id/roomCancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="취    소"
+                android:layout_weight = "0.3"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

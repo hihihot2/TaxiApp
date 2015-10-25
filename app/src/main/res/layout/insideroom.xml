@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:background = "#000000">
+
+        <TextView
+            android:layout_width = "match_parent"
+            android:layout_weight="0.1"
+            android:layout_height = "0dp"
+            android:gravity="left|center_vertical"
+            android:text="       제 목"
+            android:textSize = "20sp"
+            android:textStyle = "bold"
+            android:background = "#ffffff"
+            android:id = "@+id/Insidetitle"/>
+        <TextView
+            android:layout_width = "match_parent"
+            android:layout_height = "0dp"
+            android:layout_weight="0.7"
+            android:gravity="center|center_vertical"
+            android:text="       내용"
+            android:textSize = "20sp"
+            android:textStyle = "bold"
+            android:background = "#ffffff"
+            android:layout_marginTop = "1dp"
+            android:id = "@+id/InsideContents"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:orientation="horizontal"
+            android:background="#000000"
+            android:weightSum = "1"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:layout_weight="0.20"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="참여인원" />
+
+            <TextView
+                android:layout_width = "0dp"
+                android:layout_weight="0.20"
+                android:layout_height = "match_parent"
+                android:text = "아이디1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:layout_marginRight="1dp"
+                android:id = "@+id/maker"/>
+            <TextView
+                android:layout_width = "0dp"
+                android:layout_weight="0.20"
+                android:layout_height = "match_parent"
+                android:text = "아이디2"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:layout_marginRight="1dp"
+                android:id = "@+id/login1"/>
+            <TextView
+                android:layout_width = "0dp"
+                android:layout_weight="0.20"
+                android:layout_height = "match_parent"
+                android:text = "아이디3"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:layout_marginRight="1dp"
+                android:id ="@+id/login2"/>
+            <TextView
+                android:layout_width = "0dp"
+                android:layout_weight="0.20"
+                android:layout_height = "match_parent"
+                android:text = "아이디4"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:id ="@+id/login3"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:background = "#ffffff"
+            android:weightSum = "1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight = "0.2">
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="참여"
+                android:layout_weight = "0.4"/>
+
+            <Button
+                android:id="@+id/insideRoom_cancle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="나가기"
+                android:layout_weight = "0.4"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

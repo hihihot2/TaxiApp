@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum = "1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight = "0.20">
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "0dp"
+            android:layout_weight = "0.1"
+            android:orientation="horizontal"
+            android:weightSum = "1">
+
+            <LinearLayout
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight="0.3">
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.4"
+                android:text = "Log In"
+                android:gravity="center"
+                android:textSize = "30sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "0dp"
+            android:layout_weight = "0.05">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "0dp"
+            android:layout_weight = "0.07"
+            android:weightSum = "1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.2">
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.6"
+                android:hint="아이디를 입력하시오"
+                android:id = "@+id/logInId"
+                android:gravity="center"
+                android:textSize = "15sp"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "0dp"
+            android:layout_weight = "0.07"
+            android:weightSum = "1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.2">
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.6"
+                android:hint = "비번을 입력하시오"
+                android:id = "@+id/logInPw"
+                android:gravity = "center"
+                android:textSize = "15sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "0dp"
+            android:layout_weight = "0.05">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "0dp"
+            android:layout_weight = "0.1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.15">
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.3"
+                android:text = "Enter"
+                android:id ="@+id/logInCon"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.1">
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.3"
+                android:text = "Cancel"
+                android:id = "@+id/logInCan"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.15">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/membership"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="아직 회원이 아니십니까?"
+                android:layout_weight="0.6"
+                android:background="#ffffff"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2">
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

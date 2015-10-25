@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.kyuhwan.texiapp.PlaceinMap"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:weightSum = "1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.07"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/ListBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:background = "@drawable/listbtn"
+
+                    android:text="List"
+                    android:textColor="#ffffff"/>
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.01"
+
+                android:background="#00ff0000"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/ChatBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Chat"
+                    android:textSize = "18sp"
+                    android:textColor="#ffffff"
+                    android:textStyle = "bold"
+                    android:background="@drawable/ablechatbtn"/>
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/login"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.14"
+
+                android:background="@drawable/loginbtn"/>
+
+            <Button
+                android:id="@+id/makeroom"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_weight="0.32"
+                android:text="방만들기"
+                android:textSize="18sp"
+                android:background = "@drawable/makeroombtn"
+                android:textStyle="bold"
+                android:textColor = "#ffffff"/>
+
+            <Button
+                android:id="@+id/List_reset_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.13"
+                android:background = "@drawable/reset"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight = "0.93"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="0dp"
+                android:layout_weight="0.05"
+                android:background="#808080"
+                android:weightSum="1" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0.5dp"
+                    android:layout_marginTop="0.5dp"
+                    android:layout_marginBottom="0.5dp"
+
+                    android:layout_weight="0.45"
+                    android:background="#0000ff"
+                    android:gravity="center"
+                    android:text="글제목"
+                    android:textSize="10sp"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:id = "@+id/testTV"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0.5dp"
+                    android:layout_marginTop="0.5dp"
+                    android:layout_marginBottom="0.5dp"
+
+                    android:layout_weight="0.2"
+                    android:background="#0000ff"
+                    android:gravity="center"
+                    android:text="방장"
+                    android:textSize="10sp"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="0.5dp"
+
+                    android:layout_weight="0.2"
+                    android:background="#0000ff"
+                    android:gravity="center"
+                    android:text="등록시간"
+                    android:textSize="10sp"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="인원"
+                    android:background="#0000ff"
+                    android:layout_weight="0.15"
+                    android:textSize="10sp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_marginTop="0.5dp"
+                    android:layout_marginBottom="0.5dp"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/listView1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.95" >
+            </ListView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
